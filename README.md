@@ -3,7 +3,7 @@
 
   ## Project Objectives
     Applying what I have learned in classical computer vision to build something usefull
-    that let me reverse engineer object detection algorithims like
+    that let me reverse engineer object detection algorithims like:   
     - Feature Extraction Pipeline
     - Sliding Window
     - Image Pyramids
