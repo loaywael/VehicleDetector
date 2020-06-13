@@ -1,3 +1,51 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:530938f7b39cd0baaaad64eb7610a62a48e8b3e43894df8d6488e5739e71ec37
-size 2189
+# VehicleDetector
+  Detecting urban vehicles in images and videos using Hog Detector
+
+- ## Project Goal
+    > Applying what I have learned in classical computer vision to build something usefull   
+    > that let me reverse engineer object detection algorithims.   
+ 
+- ## Project Objectives:
+	- [x] Feature Extraction Pipeline: {Hog Descriptor, ColorsHistogram, and Edges}
+	- [x] Sliding Window: Extracting windows of 64x64x3 to be classified
+	- [x] Linear Classifier: Training SGD over [KITTY](http://www.cvlibs.net/datasets/kitti/) & [GTI](http://www.gti.ssr.upm.es/data/Vehicle_database.html)  datasets
+	- [x] Image Pyramids: Scaling the image to detect size variant objects
+	- [x]  Non Max Suppression: Removing low confidence score of detections
+	- [x]  Heatmap Filtering: Grouping multiple detection and removing False Positives **`FP`**
+	- [ ] Run in realtime for videos: Analyze more than 5 **`FPS`**
+    
+- ## Project Tree
+<iframe  id="serviceFrameSend"
+src="assets/project_tree.html"
+width="750"  height="1000"  frameborder="0"
+style="background-color: white; border-width: 0px;">
+
+15 directories, 44 files     
+* * *
+- ## Project Setup and Requirements
+  **`use python3.5`** or newer versions to install and run the package
+  > $ git clone https://github.com/loaywael/VehicleDetector.git
+  > $ pip3 install -r requirements.txt    
+  >   
+  alternatively install dependencies in virtualenv `recommended`
+  > $ pip3 install virtualenv
+  > $ python3 -m virtualenv venv
+  > $ pip3 install -r requirements.txt
+  >
+  
+- ## How to Use
+   `HogModel` is excutable package can be run given command arguments
+   supported arguments:
+	- **`path`**: the image/video to be analyzed
+	- **`threshold`** : heatmap reduces false positives and improves detection
+	- **`limits`**: limits the sliding window to scan street level cars or no bool
+   > cd ./src
+   > python3 -m HogModel ../data/detection_data/test_data/test2.jpg 5 True
+   >
+	output should look like:
+		<img src="/assets/test2_detected.png" alt="2 cars should be detected">
+
+**`version`**: https://git-lfs.github.com/spec/v1   
+**`oid`**: sha256:dbcf7a95d663d2cd7b9d38eb72f11cd29dc8bc71f94977cdaff445b83d118ad5   
+**`size`**: 619   
+
