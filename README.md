@@ -27,6 +27,7 @@
   > $ pip3 install -r requirements.txt   
   >   
   
+  
 - ## How to Use   
    `HogModel` is excutable package can be run given command arguments   
    
@@ -34,13 +35,17 @@
 	- **`path`**: the image/video to be analyzed   
 	- **`threshold`** : heatmap reduces false positives and improves detection   
 	- **`limits`**: limits the sliding window to scan street level cars or no bool      
-	    
+	
+   >    
    > cd ./src   
    > python3 -m HogModel ../data/detection_data/test_data/test2.jpg 5 True   
    >   
    
+   
+   
    <h3 align=center>Detected image: test2.png</h3>
    <img src="/assets/test2_detected.png" alt="2 cars should be detected">
+   
    
 ***
 **`version`**: https://git-lfs.github.com/spec/v1   
