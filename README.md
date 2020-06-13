@@ -43,16 +43,15 @@
    $ cd ./src     
    $ python3 -m HogModel ../data/detection_data/test_data/test2.jpg 5 True     
    ```
-   </br>   
-   </br>   
-   </br>   
-
+    
+   </br></br></br>  
+   <h3 align=center>Detected Images 2, 4, 6</h3>
+   <img src="/assets/test2_detected.png" alt="test2 2 cars should be detected">
    <table><tr>
    <td><img src="/assests/test4_detected.png" alt="test4 2 cars should be detected" style="width: 250px;"></td>
    <td><img src="/assests/test6_detected.png" alt="test6 2 cars should be detected" style="width: 250px;"></td>
    </tr></table>
-   </br>
-   </br>
+   </br></br>
    
 ***
 
