@@ -2,11 +2,11 @@
   Detecting urban vehicles in images and videos using Hog Detector
 
 - ## Project Goal   
-    > Applying what I have learned in classical computer vision to build something usefull   
-    > that let me reverse engineer object detection algorithims.   
+    > Applying what I have learned in classical computer vision to build something useful   
+    > that let me reverse engineer object detection algorithms.   
  
 - ## Project Objectives:
-	- [x] Feature Extraction Pipeline: {Hog Descriptor, ColorsHistogram, and Edges}
+	- [x] Feature Extraction Pipeline: {Hog Descriptor, Colors Histogram, and Edges}
 	- [x] Sliding Window: Extracting windows of 64x64x3 to be classified
 	- [x] Linear Classifier: Training SGD over [KITTY](http://www.cvlibs.net/datasets/kitti/) & [GTI](http://www.gti.ssr.upm.es/data/Vehicle_database.html)  datasets
 	- [x] Image Pyramids: Scaling the image to detect size variant objects
@@ -36,7 +36,7 @@
    supported arguments:   
 	- **`path`**: the image/video to be analyzed   
 	- **`threshold`** : heatmap reduces false positives and improves detection   
-	- **`limits`**: limits the sliding window to scan street level cars or no bool      
+	- **`height_limits`**: limits the sliding window to scan street level cars or no bool      
    </br>   
    
    ```bash  
@@ -55,7 +55,7 @@
 ***
 
 # REFERENCES
-> Thanks for this references I was able to get over problems I've faced during implementation.   
+> Thanks for these references I was able to get over problems I've faced during implementation.   
 
 	https://github.com/udacity/CarND-Vehicle-Detection
 	https://www.cs.utoronto.ca/~fidler/slides/CSC420/lecture17.pdf
