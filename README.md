@@ -53,7 +53,17 @@
    </br>
    
 ***
-**`version`**: https://git-lfs.github.com/spec/v1   
-**`oid`**: sha256:dbcf7a95d663d2cd7b9d38eb72f11cd29dc8bc71f94977cdaff445b83d118ad5   
-**`size`**: 619   
+
+# REFERENCES
+> Thanks for this references I was able to get over problems I've faced during implementation.   
+
+	https://github.com/udacity/CarND-Vehicle-Detection
+	https://www.cs.utoronto.ca/~fidler/slides/CSC420/lecture17.pdf
+	https://class.inrialpes.fr/tutorials/triggs-icvss1.pdf
+	https://www.pyimagesearch.com/2015/11/16/hog-detectmultiscale-parameters-explained/
+	https://www.pyimagesearch.com/2015/02/16/faster-non-maximum-suppression-python/
+	https://towardsdatascience.com/pedestrian-detection-using-non-maximum-suppression-b55b89cefc6
+	https://towardsdatascience.com/non-maximum-suppression-nms-93ce178e177c
+	https://kapernikov.com/tutorial-image-classification-with-scikit-learn/
+	https://joblib.readthedocs.io/en/latest/parallel.html
 
