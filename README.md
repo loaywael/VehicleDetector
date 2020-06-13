@@ -1,7 +1,7 @@
 # VehicleDetector
   Detecting urban vehicles in images and videos using Hog Detector
 
-- ## Project Goal
+- ## Project Goal   
     > Applying what I have learned in classical computer vision to build something usefull   
     > that let me reverse engineer object detection algorithims.   
  
@@ -15,29 +15,34 @@
 	- [ ] Run in realtime for videos: Analyze more than 5 **`FPS`**
 
 
-- ## Project Setup and Requirements
-  **`use python3.5`** or newer versions to install and run the package
-  > $ git clone https://github.com/loaywael/VehicleDetector.git
+- ## Project Setup and Requirements   
+  **`use python3.5`** or newer versions to install and run the package   
+  > $ git clone https://github.com/loaywael/VehicleDetector.git   
   > $ pip3 install -r requirements.txt    
   >   
-  alternatively install dependencies in virtualenv `recommended`
-  > $ pip3 install virtualenv
-  > $ python3 -m virtualenv venv
-  > $ pip3 install -r requirements.txt
-  >
   
-- ## How to Use
-   `HogModel` is excutable package can be run given command arguments
-   supported arguments:
-	- **`path`**: the image/video to be analyzed
-	- **`threshold`** : heatmap reduces false positives and improves detection
-	- **`limits`**: limits the sliding window to scan street level cars or no bool
-   > cd ./src
-   > python3 -m HogModel ../data/detection_data/test_data/test2.jpg 5 True
-   >
-	output should look like:
-		<img src="/assets/test2_detected.png" alt="2 cars should be detected">
-
+  alternatively install dependencies in virtualenv `recommended`   
+  > $ pip3 install virtualenv   
+  > $ python3 -m virtualenv venv   
+  > $ pip3 install -r requirements.txt   
+  >   
+  
+- ## How to Use   
+   `HogModel` is excutable package can be run given command arguments   
+   
+   supported arguments:   
+	- **`path`**: the image/video to be analyzed   
+	- **`threshold`** : heatmap reduces false positives and improves detection   
+	- **`limits`**: limits the sliding window to scan street level cars or no bool      
+	    
+   > cd ./src   
+   > python3 -m HogModel ../data/detection_data/test_data/test2.jpg 5 True   
+   >   
+   
+   <h3 align=center>Detected image: test2.png</h3>
+   <img src="/assets/test2_detected.png" alt="2 cars should be detected">
+   
+***
 **`version`**: https://git-lfs.github.com/spec/v1   
 **`oid`**: sha256:dbcf7a95d663d2cd7b9d38eb72f11cd29dc8bc71f94977cdaff445b83d118ad5   
 **`size`**: 619   
