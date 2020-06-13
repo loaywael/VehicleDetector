@@ -43,7 +43,21 @@
    $ cd ./src     
    $ python3 -m HogModel ../data/detection_data/test_data/test2.jpg 5 True     
    ```
-    
+   </br>
+
+   you can train the classifier from scratch using `train.py`    
+   supported arguments:
+  - **`train`**: trains the classifier       
+  - **`eval`**: evaluates the fitted classifier
+   </br>
+
+   ```bash
+   $ python3 train.py train
+   ```   
+   ```bash
+   $ python3 train.py eval
+   ```
+
    </br></br></br>  
    <h3 align=center>Detected Images 2, 4, 6</h3>
    <img src="/assets/test2_detected.png" alt="test2 2 cars should be detected">
@@ -56,6 +70,7 @@
 ***
 
 # REFERENCES
+
 > Thanks for these references I was able to get over problems I've faced during implementation.   
 
 	https://github.com/udacity/CarND-Vehicle-Detection
