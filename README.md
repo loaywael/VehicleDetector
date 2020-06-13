@@ -16,16 +16,18 @@
 
 
 - ## Project Setup and Requirements   
-  **`use python3.5`** or newer versions to install and run the package   
-  > $ git clone https://github.com/loaywael/VehicleDetector.git   
-  > $ pip3 install -r requirements.txt    
-  >   
+  **`use python3.5`** or newer versions to install and run the package  
+  ```bash
+  $ git clone https://github.com/loaywael/VehicleDetector.git   
+  $ pip3 install -r requirements.txt      
+  ```   
   
   alternatively install dependencies in virtualenv `recommended`   
-  > $ pip3 install virtualenv   
-  > $ python3 -m virtualenv venv   
-  > $ pip3 install -r requirements.txt   
-  >   
+  ```bash
+  $ pip3 install virtualenv   
+  $ python3 -m virtualenv venv   
+  $ pip3 install -r requirements.txt   
+  ```   
   
   
 - ## How to Use   
@@ -36,10 +38,10 @@
 	- **`threshold`** : heatmap reduces false positives and improves detection   
 	- **`limits`**: limits the sliding window to scan street level cars or no bool      
    </br> 
-   
-   > cd ./src   
-   > python3 -m HogModel ../data/detection_data/test_data/test2.jpg 5 True   
-   >  
+   ```bash  
+   $ cd ./src     
+   $ python3 -m HogModel ../data/detection_data/test_data/test2.jpg 5 True     
+   ```
    </br>   
    </br>   
    </br>   
