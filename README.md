@@ -13,12 +13,8 @@
 	- [x]  Non Max Suppression: Removing low confidence score of detections
 	- [x]  Heatmap Filtering: Grouping multiple detection and removing False Positives **`FP`**
 	- [ ] Run in realtime for videos: Analyze more than 5 **`FPS`**
-    
-- ## Project Tree
-<iframe  id="serviceFrameSend"  src="/assets/project_tree.html" width="500"  height="1000"  frameborder="0">
 
-15 directories, 44 files     
-* * *
+
 - ## Project Setup and Requirements
   **`use python3.5`** or newer versions to install and run the package
   > $ git clone https://github.com/loaywael/VehicleDetector.git
