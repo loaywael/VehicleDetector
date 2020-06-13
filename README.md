@@ -35,7 +35,8 @@
 	- **`path`**: the image/video to be analyzed   
 	- **`threshold`** : heatmap reduces false positives and improves detection   
 	- **`limits`**: limits the sliding window to scan street level cars or no bool      
-   </br>   
+   </br> 
+   
    > cd ./src   
    > python3 -m HogModel ../data/detection_data/test_data/test2.jpg 5 True   
    >  
