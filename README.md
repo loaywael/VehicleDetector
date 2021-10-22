@@ -12,7 +12,7 @@
 	- [x] Image Pyramids: Scaling the image to detect size variant objects
 	- [x]  Non Max Suppression: Removing low confidence score of detections
 	- [x]  Heatmap Filtering: Grouping multiple detection and removing False Positives **`FP`**
-	- [ ] Run in realtime for videos: Analyze more than 5 **`FPS`**
+	- [ ] Run in realtime for videos: Analyze more than 10 **`FPS`**
 
 
 - ## Project Setup and Requirements   
@@ -62,8 +62,8 @@
    <h3 align=center>Detected Images 2, 4, 6</h3>
    <img src="/assets/test2_detected.png" alt="test2 2 cars should be detected">
    <table><tr>
-   <td><img src="/assets/test4_detected.png" alt="test4 2 cars should be detected" style="width: 25%;"/></td>
-   <td><img src="/assets/test6_detected.png" alt="test6 2 cars should be detected" style="width: 25%;"/></td>
+   <td><img src="/assets/test4_detected.png" alt="test4 2 cars should be detected" style="width: 50%;"/></td>
+   <td><img src="/assets/test6_detected.png" alt="test6 2 cars should be detected" style="width: 50%;"/></td>
    </tr></table>
    </br></br>
    
